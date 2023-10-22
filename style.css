@@ -187,31 +187,7 @@ h3 {
     }
 }
 
-/* campus  */
-/* .header{
-	min-height:100vh;
-	width:100%;
-
-} */
-.campus-title {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    background-image: linear-gradient(rgba(139, 5, 29, 1), rgba(139, 5, 29, 1)), url("https://lh3.googleusercontent.com/ggm1lWrCm5o5m4IRbKTZBzXZTCY0-q-E-RhQnPbs7NL-gZ_U_lXYbvW0bBuvgdRhkw6gt7NzwzQcSY2XIOV0TK5iihNMdYkgn4cEv1y7oEO3TMdlMq1pWYltyHg_2LxJv_-szqvS8Q=w2400");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-.campus {
-    width: 100%;
-    margin: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(47, 17, 17, 1)), url("white.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
+/* campus */
 
 .grid-item {
     display: grid;
