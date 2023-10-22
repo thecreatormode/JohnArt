@@ -846,3 +846,11 @@ grid-row-end: 6;
 color: #fff;
 text-align: center;
 }
+
+.text-white {
+	color: white;
+}
+
+.text-light-red {
+	color: lightcoral;
+}
