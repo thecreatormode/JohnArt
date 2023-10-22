@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>John Zhou Art</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>John Zhou Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<section class="aboutsub-header">
-	    <nav>
-		<a href="site.html"><img src="logo.png" width="120" height="50" /> </a>
-		<div class="nav-links" id="navLinks">
-		 <i class="fa fa-times" onclick="hideMenu()"></i>
+<section class="aboutsub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png" width="120" height="50"/></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
 
-		  <ul>
-        <li><a href="index.html">HOME</a></li>
-  			<li><a href="Portfolio.html">PORTFOLIO</a></li>
-  			<li><a href="Current.html">CURRENT PROJECTS</a></li>
-  			<li><a href="About">ABOUT</a></li>
-  			<li><a href="Contact.html">CONTACT</a></li>
-		  </ul>
-		</div>
-		<i class="fa fa-bars" onclick="showMenu()"></i>
-	    </nav>
-      <h1>PORTFOLIO</h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Current.html">CURRENT PROJECTS</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>PORTFOLIO</h1>
 </section>
 
 <!-- Pictures -->
@@ -148,26 +149,27 @@
 
 <!-- Footer -->
 <section class="footer">
-	<h4>About Us</h4>
-	<p>All rights reserved.<br> Contact for re-use or commercial purposes.</p>
-	<div class="icons">
-		<i class="fa fa-facebook"></i>
-		<i class="fa fa-twitter"></i>
-		<i class="fa fa-instagram"></i>
-		<i class="fa fa-linkedin"></i>
-</div>
-<p>WEBSITE CREATOR: SLAVA SAMOKHINA <i class="fa fa-heart-o"></i></p>
+    <h4>About Us</h4>
+    <p>All rights reserved.<br> Contact for re-use or commercial purposes.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>WEBSITE CREATOR: SLAVA SAMOKHINA <i class="fa fa-heart-o"></i></p>
 </section>
 
 <!--- Function in JavaScript to toggle menu---->
 <script>
-	var navLinks = document.getElementById("navLinks");
+    const navLinks = document.getElementById("navLinks");
 
-	function showMenu(){
-	  navLinks.style.right = "0";
-	}
-	function hideMenu(){
-	  navLinks.style.right = "-200px";
-	}
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
 </script>
 </body>
