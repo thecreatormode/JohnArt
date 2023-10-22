@@ -438,25 +438,6 @@ h3 {
     padding-bottom: 50px;
 }
 
-.current-col {
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
-
-.current-col img {
-    width: 100%;
-}
-
-.current-col h1 {
-    padding-top: 0;
-
-}
-
-.current-col p {
-    padding: 15px 0 25px;
-    font-size: 20px;
-}
-
 .red-btn {
     border: 1px solid #8b051d;
     background: transparent;
