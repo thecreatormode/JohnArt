@@ -13,7 +13,7 @@
 <body>
 <section class="header">
     <nav>
-        <a id="logo" href="site.html"><img src="logo.png" width="120" height="50"/> </a>
+        <a id="logo" href="index.html"><img src="logo.png" width="120" height="50"/> </a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
 
@@ -21,7 +21,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="Portfolio.html">PORTFOLIO</a></li>
                 <li><a href="Current.html">CURRENT PROJECTS</a></li>
-                <li><a href="About">ABOUT</a></li>
+                <li><a href="About.html">ABOUT</a></li>
                 <li><a href="Contact.html">CONTACT</a></li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
     <div class="row">
         <div class="course-col">
             <h3>Comic</h3>
-            <p> Stylized comics with an elegant layout<br> and a captivating story.</p>
+            <p> Stylized comics with an elegant layout <br> and a captivating story.</p>
         </div>
         <div class="course-col">
             <h3>Manga </h3>
@@ -55,14 +55,15 @@
             <h3>Landscape</h3>
             <p> Flat, coastal and mountain landscapes <br> both virtual and by-hand.</p>
         </div>
+    </div>
 </section>
 <!-- Campus -->
 <section class="campus-title">
     <h1 class="text-white">MEET THE CHARACTERS</h1>
-    <p class="text-light-red">Character preview from horrifying enemies to heroic protagonists. Meet the Gods, the Holy
-        Choir <br>
-        and many more. For a full character list, visit the PORTFOLIO and CURRENT PROJECTS sections. </p>
-
+    <p class="text-light-red">
+        Character preview from horrifying enemies to heroic protagonists. Meet the Gods, the Holy Choir <br>
+        and many more. For a full character list, visit the PORTFOLIO and CURRENT PROJECTS sections.
+    </p>
 </section>
 
 <section class="campus">
@@ -79,7 +80,6 @@
                 <h3>THE HOLY CHOIR</h3>
             </div>
         </div>
-    </div>
     </div>
     <div class="container">
         <div class="row no-gutters">
@@ -156,7 +156,7 @@
 
 <!--- Function in JavaScript to toggle menu---->
 <script>
-    var navLinks = document.getElementById("navLinks");
+    const navLinks = document.getElementById("navLinks");
 
     function showMenu() {
         navLinks.style.right = "0";
